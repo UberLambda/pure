@@ -770,7 +770,7 @@ prompt_pure_setup() {
 		execution_time       magenta
 		git:arrow            yellow
 		git:stash            cyan
-		git:branch           248
+		git:branch           246
 		git:branch:cached    red
 		git:action           yellow
 		git:dirty            yellow
@@ -781,7 +781,7 @@ prompt_pure_setup() {
 		prompt:continuation  242
 		user                 242
 		user:root            default
-		virtualenv           magenta
+		virtualenv           cyan
 	)
 	prompt_pure_colors=("${(@kv)prompt_pure_colors_default}")
 
