@@ -776,11 +776,11 @@ prompt_pure_setup() {
 		host                 242
 		path                 blue
 		prompt:error         red
-		prompt:success       magenta
+		prompt:success       cyan
 		prompt:continuation  242
 		user                 242
 		user:root            default
-		virtualenv           242
+		virtualenv           magenta
 	)
 	prompt_pure_colors=("${(@kv)prompt_pure_colors_default}")
 
